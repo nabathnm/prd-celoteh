@@ -65,7 +65,7 @@ Materi interaktif berbasis tema minat anak dengan sesi belajar 4 tahap (Kenali �
 Flow: Beranda → Belajar → Pilih Tema → Pilih Subtema → Kenali → Tirukan → Rekam → Hore! → Subtema Berikutnya / Kembali ke Tema
 
 ### 6. Progress Tracking
-Pemantauan capaian kata per tema minat, arsip dan komparasi rekaman suara anak, log aktivitas harian, catatan observasi orang tua, serta fitur ekspor laporan untuk terapis wicara.
+Visualisasi statistik perkembangan kata dengan toggle harian/mingguan (tren pertumbuhan kata antar minggu), pemantauan capaian kata per tema minat, arsip dan komparasi rekaman suara anak, log aktivitas harian, catatan observasi orang tua, serta fitur ekspor laporan untuk terapis wicara.
 Flow: Dashboard / Bottom Nav → Progress Tracking → Pilih Tab (Capaian Tema / Arsip Suara / Riwayat / Catatan) → Putar Rekaman / Tambah Catatan / Ekspor Laporan
 
 ## Hubungan Antar Fitur
