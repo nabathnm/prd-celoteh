@@ -4,135 +4,130 @@
 
 ## 1. Metadata Proyek
 * **Nama Produk:** Celoteh
-* **Kategori:** HealthTech / EdTech – Aplikasi Pendamping Stimulasi Bicara Anak
+* **Kategori:** EdTech / HealthTech – Aplikasi Pendamping Stimulasi Bicara Anak Berbasis Minat
 * **Platform:** Mobile Application (Android & iOS)
 * **Target Pengguna:** 
-  * **Primary User:** Orang tua / pengasuh anak usia 2–6 tahun yang mengalami indikasi keterlambatan bicara (*speech delay*).
-  * **Secondary User (End-Beneficiary):** Anak usia dini usia 2–6 tahun (sebagai pengguna sesi interaktif bersama orang tua).
-  * **Tertiary User:** Terapis wicara / dokter tumbuh kembang (sebagai penerima dokumentasi/laporan latihan).
-* **SDGs Alignment:** SDG 4 (Quality Education) – Sub-target 4.2 (Akses terhadap perkembangan dan pengasuhan anak usia dini berkualitas).
-* **Timeline Pengerjaan:** 11 – 19 November 2026
-* **Tautan Desain (Figma):** [Link Figma Celoteh](https://figma.com) *(Dapat disesuaikan)*
+  * **Primary User:** Orang tua / pengasuh anak usia 2–6 tahun dengan indikasi keterlambatan bicara (*speech delay*).
+  * **Secondary User (End-Beneficiary):** Anak usia dini usia 2–6 tahun (sebagai pengguna sesi belajar interaktif bersama orang tua).
+  * **Tertiary User:** Terapis wicara (sebagai penerima dokumentasi laporan latihan di rumah).
+* **SDGs Alignment:** SDG 4 (Quality Education) – Akses stimulasi perkembangan anak usia dini yang inklusif dan menyenangkan.
+* **Timeline:** 11 – 19 November 2026
+* **Tautan Desain (Figma):** [Link Figma Celoteh](https://figma.com)
 
 ---
 
 ## 2. Product Vision & Overview
-**Celoteh** adalah aplikasi *mobile* pendamping stimulasi perkembangan bahasa dan komunikasi anak di rumah yang dirancang terstruktur, menyenangkan, dan terdokumentasi. 
+**Celoteh** adalah aplikasi *mobile* pendamping stimulasi perkembangan bahasa anak di rumah yang dirancang terstruktur, menyenangkan, dan **berbasis minat anak (*interest-driven learning*)**. 
 
-Aplikasi ini menjembatani kesenjangan antara sesi terapi formal dengan rutinitas latihan harian di rumah. Celoteh mengintegrasikan alur holistik:
-1. **Onboarding & Auth:** Pengenalan peran orang tua dan pembuatan akun yang aman.
-2. **Child Profile:** Asesmen awal non-medis dan personalisasi materi berdasarkan tahap anak.
-3. **Dashboard:** Pusat pemantauan konsistensi (streak, level aktif, dan aksi cepat latihan harian).
-4. **Learning Materials:** Sesi belajar interaktif 4 tahap (*Kenali → Tirukan → Rekam → Hore!*) berbasis audio-visual, rekaman suara (*voice recording*), dan gamifikasi positif.
-5. **Progress Tracking:** Dokumentasi riwayat rekaman suara, log aktivitas harian, catatan observasi orang tua, serta ringkasan perkembangan untuk dikonsultasikan ke terapis.
+Pendekatan stimulasi bicara anak usia dini terbukti jauh lebih efektif ketika anak diajak belajar melalui topik yang sangat mereka sukai (seperti hewan, kendaraan, makanan favorit, dinosaurus, atau benda di sekitarnya), bukan melalui tingkatan (*level*) yang kaku. 
 
-> **Pernyataan Batasan Medis (Medical Disclaimer):**  
-> Celoteh adalah media stimulasi dan pendamping latihan di rumah, **bukan alat diagnosis medis dan bukan pengganti terapi wicara profesional**.
+Celoteh menyatukan alur pengalaman pengguna yang mulus:
+1. **Onboarding & Auth:** Pengenalan peran orang tua dan akses akun yang mudah.
+2. **Child Profile:** Personalisasi tema belajar berdasarkan minat utama dan kondisi komunikasi anak.
+3. **Dashboard:** Pemantauan konsistensi latihan harian (*streak*), progres tema yang sedang dipelajari, dan akses cepat latihan.
+4. **Learning Materials:** Sesi belajar interaktif 4 tahap (*Kenali → Tirukan → Rekam → Hore!*) yang menyenangkan dan mengapresiasi setiap suara anak tanpa rasa takut salah.
+5. **Progress Tracking:** Pemantauan penguasaan kata per tema minat, arsip rekaman suara anak, catatan observasi harian orang tua, serta ringkasan yang dapat dibagikan kepada terapis wicara.
+
+> **Catatan:** Celoteh berfungsi sebagai sarana stimulasi di rumah, bukan alat diagnosis medis dan bukan pengganti sesi terapi wicara profesional.
 
 ---
 
 ## 3. Problem Statement & "How Might We"
 
 ### Problem Statement
-Berdasarkan riset kebutuhan orang tua dengan anak *speech delay*, ditemukan tiga kendala mendasar:
-1. **Bingung Memilih Stimulasi:** Orang tua merasa kewalahan menentukan materi kata, urutan stimulasi, dan cara melatih yang sesuai dengan tingkat kesiapan komunikasi anak.
-2. **Latihan di Rumah Tidak Terstruktur & Inkonsisten:** Keterlibatan anak mudah menurun karena metode latihan konvensional membosankan, sedangkan orang tua tidak memiliki panduan harian yang terarah di luar jam terapi.
-3. **Perkembangan Tidak Terdokumentasi:** Orang tua kesulitan mengingat dan mengukur progres artikulasi anak dari waktu ke waktu, serta tidak memiliki catatan riwayat latihan yang objektif saat berkonsultasi dengan terapis.
+1. **Anak Cepat Bosan & Tidak Termotivasi:** Metode latihan bicara konvensional yang kaku membuat anak enggan bersuara. Anak membutuhkan stimulasi melalui objek dan tema yang benar-benar memancing rasa ingin tahu mereka.
+2. **Orang Tua Bingung Memilih Materi:** Orang tua kesulitan menentukan kata atau topik apa yang tepat dan relevan untuk dilatihkan di rumah setiap hari.
+3. **Dokumentasi Perkembangan Tercecer:** Orang tua tidak memiliki arsip rekaman suara anak untuk melihat perkembangan artikulasi dari waktu ke waktu dan sulit menceritakan kemajuan saat berkonsultasi dengan terapis.
 
 ### How Might We (HMW)
-> *"Bagaimana kita dapat membantu orang tua melatih stimulasi bicara anak di rumah secara terstruktur, ramah anak, dan terdokumentasi dengan baik tanpa menggantikan peran terapis profesional?"*
+> *"Bagaimana kita dapat membantu orang tua melatih stimulasi bicara anak di rumah melalui tema-tema yang disukai anak secara terstruktur, menyenangkan, dan terdokumentasi dengan baik?"*
 
 ---
 
-## 4. Product Goals & Success Metrics (KPI)
+## 4. Product Goals & Indikator Keberhasilan (UX Metrics)
 
-| Aspek | Product Goals | Key Metrics / Indikator Keberhasilan |
+| Aspek | Product Goals | UX Metrics |
 | :--- | :--- | :--- |
-| **Struktur Belajar** | Menyediakan jalur kurikulum bertahap yang adaptif | $\ge 80\%$ pengguna menyelesaikan setidaknya 1 modul sesuai rekomendasi level profil anak. |
-| **Engagement Anak** | Menjadikan latihan bicara menyenangkan tanpa intimidasi benar/salah | Rata-rata durasi sesi latihan anak 5–10 menit/hari dengan completion rate sesi $\ge 75\%$. |
-| **Konsistensi** | Membangun rutinitas harian orang tua mendampingi anak | *Daily Streak Retention* mencapai minimal 4 hari latihan per minggu. |
-| **Dokumentasi** | Menyimpan jejak audio & catatan perkembangan secara terpusat | $100\%$ sesi rekaman tersimpan otomatis di *Progress Tracking* dan dapat diekspor. |
+| **Pendekatan Belajar** | Mengarahkan stimulasi sesuai minat dan antusiasme anak | $\ge 85\%$ sesi latihan dimulai dari tema yang dipilih atau disukai anak. |
+| **Engagement Anak** | Menjadikan latihan bicara bebas stres (*zero-penalty*) | Rata-rata durasi latihan 5–10 menit per hari dengan completion rate $\ge 80\%$. |
+| **Konsistensi Orang Tua** | Membentuk kebiasaan stimulasi harian di rumah | Mempertahankan *Daily Streak* minimal 4 hari latihan per minggu. |
+| **Dokumentasi** | Menyimpan rekaman suara dan catatan perkembangan anak | $100\%$ rekaman suara anak tersimpan rapi per tema dan dapat didengarkan kembali. |
 
 ---
 
-## 5. Standarisasi Taksonomi & Struktur Kurikulum
-Untuk memastikan konsistensi antarmuka dan terminologi di seluruh modul fitur:
+## 5. Struktur Kurikulum Berbasis Minat (*Interest-Based Curriculum*)
+
+Celoteh **tidak menggunakan sistem penjenjangan level yang mengunci materi**, melainkan mengelompokkan kosakata ke dalam **Tema-Tema Minat Kontekstual**:
 
 ```
-[Level Pembelajaran] (Berdasarkan Tahap Perkembangan Komunikasi)
-   └── [Tema Pembelajaran] (Konteks Kehidupan Sehari-hari Anak)
-          └── [Kosakata / Materi] (Objek/Kata Konkret)
-                 └── [Sesi Interaktif 4 Tahap] (Kenali → Tirukan → Rekam → Hore!)
+[Tema Minat Anak] (Pilihan Topik: Hewan, Buah, Kendaraan, Dinosaurus, dll.)
+   └── [Kosakata / Materi] (Objek/Kata Konkret yang Bermakna)
+          └── [Sesi Interaktif 4 Tahap] (Kenali → Tirukan → Rekam → Hore!)
 ```
 
-* **Level (Tahap Kemampuan):**
-  * *Level 1: Eksplorasi Suara & Kata Pertama* (Fokus: Vokal, onomatope, kata benda dasar 1 suku kata/kata tunggal).
-  * *Level 2: Kombinasi Kata & Aksi Sehari-hari* (Fokus: Kata kerja sederhana, kata sifat, frasa 2 kata).
-  * *Level 3: Kalimat Sederhana & Cerita Ekspresif* (Fokus: Merangkai kebutuhan, menjawab pertanyaan sebab-akibat sederhana).
-* **Tema (Kategori):** Ruang Tamu, Hewan Peliharaan, Buah & Makanan, Anggota Keluarga, dsb.
-* **Kosakata (Item Belajar):** Satuan kata atau konsep (contoh: Sofa, Meja, Kucing, Ibu).
+* **Fleksibilitas Minat:** Orang tua dan anak bebas memilih tema mana pun yang ingin dieksplorasi hari ini, dengan panduan rekomendasi tema favorit dari profil anak.
+* **Tema Pembelajaran:** 
+  * 🐶 *Hewan Peliharaan* (Kucing, Kelinci, Ayam, Ikan, Burung)
+  * 🍎 *Buah & Makanan* (Apel, Pisang, Jeruk, Nasi, Susu, Roti)
+  * 🚗 *Kendaraan & Transportasi* (Mobil, Motor, Kereta, Pesawat, Sepeda)
+  * 🛋️ *Benda di Rumah* (Sofa, Meja, Tempat Tidur, Lampu, Pintu)
+  * 👨‍👩‍👧 *Keluarga & Diri Sendiri* (Ibu, Ayah, Kakak, Adik, Baju, Sepatu)
+  * 🦖 *Dunia Dinosaurus & Alam* (Dino, Pohon, Bunga, Bintang, Air)
 * **Sesi Belajar (4 Langkah):**
-  1. **Kenali:** Visual besar + Audio model pengucapan jelas + Panduan maskot.
-  2. **Tirukan:** Prompt verbal interaktif ("Yuk tirukan suara kucing: Meong!").
-  3. **Rekam:** Tombol rekam mikrofon + Visualisasi gelombang audio (*voice waveform*) tanpa penalti salah.
-  4. **Hore!:** Selebrasi bintang, badge koleksi, update streak, dan pesan afirmasi positif.
+  1. **Kenali:** Mengenal objek lewat ilustrasi ceria, teks nama objek, dan audio pengucapan jernih.
+  2. **Tirukan:** Maskot mengajak anak menirukan suara atau kata dengan ramah.
+  3. **Rekam:** Tombol mikrofon interaktif dan visualisasi gelombang suara. Menghargai setiap usaha bersuara tanpa vonis salah.
+  4. **Hore!:** Selebrasi bintang, lencana tema, pertambahan streak harian, dan afirmasi positif.
 
 ---
 
-## 6. Information Architecture (IA) & Global Navigation
+## 6. Information Architecture & Navigasi Global
 
-Aplikasi Celoteh menggunakan struktur navigasi yang konsisten untuk pengguna terautentikasi melalui **Bottom Navigation Bar (4 Tab Utama)**:
+Aplikasi menggunakan **Bottom Navigation Bar (4 Tab Utama)** untuk kemudahan eksplorasi:
 
 ```mermaid
 flowchart TD
-    Splash[Splash Screen] --> Onboarding[1. Onboarding 3 Slides]
-    Onboarding --> Auth[2. Authentication Login / Register]
+    Splash[Splash Screen] --> Onboarding[1. Onboarding: 3 Slides Pengenalan]
+    Onboarding --> Auth[2. Authentication: Masuk / Daftar]
     
-    Auth -->|Pengguna Baru / Belum Ada Profil| ChildProfile[3. Child Profile Setup]
-    ChildProfile --> BaselineSummary[Layar Gambaran Awal Rekomendasi]
-    BaselineSummary --> Dashboard[4. Dashboard Beranda]
+    Auth -->|Pengguna Baru| ChildProfile[3. Child Profile: Minat & Identitas Anak]
+    ChildProfile --> Summary[Layar Rekomendasi Tema Minat]
+    Summary --> Dashboard[4. Dashboard: Beranda]
     
-    Auth -->|Pengguna Lama & Profil Siap| Dashboard
+    Auth -->|Pengguna Lama| Dashboard
     
-    subgraph BottomNav ["Bottom Navigation Bar (Konsisten di 4 Tab Utama)"]
+    subgraph BottomNav ["Bottom Navigation Bar (4 Tab Utama)"]
         Dashboard
-        Learning[5. Learning Material Belajar]
-        Progress[6. Progress Tracking Progres]
+        Learning[5. Learning Material: Belajar Berdasarkan Minat]
+        Progress[6. Progress Tracking: Progres & Rekaman Suara]
         ProfileTab[Pengaturan Akun & Profil Anak]
     end
 
-    Dashboard -->|Aksi 'Lanjutkan Belajar' / Rekomendasi Tema| Learning
-    Dashboard -->|Aksi 'Lihat Selengkapnya' Progres| Progress
-    Learning -->|Selesaikan Sesi Latihan| SessionResult[Layar Hasil Belajar Hore!]
-    SessionResult -->|Rekaman & Progres Terkirim| Progress
-    SessionResult -->|Update Streak & Progres| Dashboard
+    Dashboard -->|Aksi 'Lanjutkan Belajar Tema'| Learning
+    Dashboard -->|Aksi 'Lihat Selengkapnya'| Progress
+    Learning -->|Selesaikan Sesi Latihan| SessionResult[Layar Hore!]
+    SessionResult -->|Rekaman Tersimpan Otomatis| Progress
+    SessionResult -->|Update Streak & Progres Tema| Dashboard
 ```
 
 ---
 
-## 7. Matriks Keterhubungan & Alur Data Antar Fitur (Cross-Feature Traceability)
+## 7. Matriks Keterhubungan Antar Fitur (Cross-Feature Traceability)
 
-Tabel berikut menunjukkan bagaimana setiap fitur saling mengirim dan menerima data (*single source of truth*):
-
-| Modul Fitur | Data Input / Asal Sumber | Data Output / Dampak ke Modul Lain |
+| Modul Fitur | Data Input / Asal | Peran & Dampak ke Modul Lain |
 | :--- | :--- | :--- |
-| **1. Onboarding** | Pengguna pertama kali menginstal aplikasi. | Mengarahkan ke Authentication; flag status onboarding disimpan lokal agar tidak berulang. |
-| **2. Authentication** | Input kredensial Orang Tua/Pengasuh; persetujuan kepatuhan privasi data anak. | Mengarahkan *routing*: jika belum ada profil anak $\rightarrow$ Child Profile; jika sudah ada $\rightarrow$ Dashboard. |
-| **3. Child Profile** | Nama, usia, tanggal lahir, dan asesmen awal 5 pertanyaan kondisi komunikasi. | Menghasilkan **Rekomendasi Level & Tema Awal** untuk Dashboard dan menandai label *"Rekomendasi"* pada Learning Material. |
-| **4. Dashboard** | Mengambil data nama anak & avatar (Child Profile), Streak & Level Progres (Learning Material), serta ringkasan aktivitas (Progress Tracking). | Menyediakan akses cepat (*shortcut*) ke sesi belajar aktif (*Lanjutkan Belajar*) dan navigasi langsung ke Progress Tracking. |
-| **5. Learning Material** | Mengambil preferensi tema & rekomendasi level dari Child Profile. | Menyelesaikan sesi belajar akan: <br>1. Mengirim audio latihan ke **Progress Tracking (Riwayat Rekaman)**.<br>2. Menambah log ke **Progress Tracking (Riwayat Aktivitas)**.<br>3. Menambah persentase materi & streak di **Dashboard**. |
-| **6. Progress Tracking** | Menerima data log aktivitas, status selesai, dan rekaman suara dari Learning Material; menerima input catatan manual orang tua. | Menyajikan grafik visualisasi perkembangan, evaluasi konsistensi, pemutar rekaman suara, serta ringkasan yang dapat diekspor untuk terapis. |
+| **1. Onboarding** | Pengguna baru membuka aplikasi. | Mengenalkan manfaat belajar berbasis suara & minat; mengarahkan ke Authentication. |
+| **2. Authentication** | Kredensial orang tua (Email & Password). | Mengarahkan alur: pengguna baru ke Child Profile, pengguna lama langsung ke Dashboard. |
+| **3. Child Profile** | Nama anak, usia, dan **pilihan tema minat favorit** serta kondisi awal bicara. | Menghasilkan **Rekomendasi Tema Utama** di Dashboard dan menandai label *"Favorit Kayla"* di Learning Material. |
+| **4. Dashboard** | Data anak aktif (Child Profile), streak latihan & progres kata per tema (Learning Material), dan rekaman terbaru (Progress Tracking). | Menyediakan tombol cepat *"Lanjutkan Belajar [Tema Terakhir]"* dan ringkasan kosakata yang sudah dipelajari. |
+| **5. Learning Material** | Menampilkan katalog tema belajar yang disesuaikan dengan minat anak. | Setiap kata yang selesai dipelajari akan: <br>1. Mengirim audio latihan ke **Progress Tracking (Arsip Suara)**.<br>2. Menambah log ke **Progress Tracking (Riwayat Aktivitas)**.<br>3. Memperbarui progres tema dan streak di **Dashboard**. |
+| **6. Progress Tracking** | Menerima arsip audio rekaman dan log kata selesai dari Learning Material; menerima catatan manual orang tua. | Menampilkan capaian kata per tema minat, pemutar rekaman suara, log aktivitas harian, serta fitur **Ekspor Ringkasan Latihan** untuk terapis. |
 
 ---
 
-## 8. Prinsip Desain UI/UX Celoteh (Design Principles)
-
-1. **Dual-Audience Friendly (Orang Tua & Anak):**
-   * Antarmuka area orang tua (Dashboard, Progress Tracking, Profil) dirancang bersih, tenang, informatif, dan profesional.
-   * Antarmuka area sesi belajar (Learning Material) dirancang interaktif, ramah anak, kontras tinggi, elemen visual besar, dan meminimalkan teks panjang.
-2. **Positive Reinforcement (Tanpa Stigma Kegagalan):**
-   * Tidak ada status "Salah" atau "Gagal" pada rekaman suara. Setiap usaha anak menekan tombol mikrofon dan bersuara diapresiasi ("Hebat, kamu sudah berani mencoba!").
-3. **Safety & Privacy First:**
-   * Data suara dan profil anak dienkripsi, tidak dipublikasikan ke publik, dan hanya dapat dibagikan atas persetujuan sadar orang tua (*consent-based sharing*).
-4. **Effortless Habit Building:**
-   * Informasi streak harian dan pengingat lembut disajikan tanpa menciptakan rasa bersalah (*guilt-free gamification*).
+## 8. Prinsip Desain UI/UX Celoteh
+1. **Interest-First Approach:** Mengutamakan topik yang disukai anak agar proses stimulasi terjadi secara alami dan tanpa paksaan.
+2. **Dual Experience Mode:**
+   * *Mode Anak (Sesi Belajar):* Tombol besar, visual cerah, animasi maskot bersahabat, tanpa beban membaca teks panjang.
+   * *Mode Orang Tua (Dashboard & Tracking):* Bersih, informatif, menyajikan data perkembangan yang jelas dan mudah dipahami.
+3. **Zero-Penalty Reinforcement:** Tidak ada skor gagal atau pesan salah; setiap percobaan anak menekan mikrofon dan mengeluarkan suara diapresiasi dengan bintang dan konfeti.
